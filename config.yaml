@@ -31,28 +31,6 @@ monitors:
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
 
-  - id: SinkiShop # unique identifier
-    name: Sinki.Shop
-    description: 'SinkiShop' # default=empty
-    url: 'https://sinki.shop' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    
-   - id: SinkiApp # unique identifier
-    name: Sinki.App
-    description: 'SinkiApp' # default=empty
-    url: 'https://sinki.app' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
-    
-        
-   - id: SinkiAsia # unique identifier
-    name: Sinki.Asia 
-    description: 'SinkiAsia' # default=empty
-    url: 'https://sinki.asia' # URL to fetch
-    method: GET # default=GET
-    expectStatus: 200 # operational status, default=200
-    followRedirect: false # should fetch follow redirects, default=false
+
+
     
