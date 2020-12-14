@@ -32,7 +32,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
 
   - id: SinkiShop # unique identifier
-    name: SinkiShop
+    name: Sinki.Shop
     description: 'SinkiShop' # default=empty
     url: 'https://sinki.shop' # URL to fetch
     method: GET # default=GET
@@ -40,7 +40,7 @@ monitors:
     followRedirect: false # should fetch follow redirects, default=false
     
    - id: SinkiApp # unique identifier
-    name: SinkiApp
+    name: Sinki.App
     description: 'SinkiApp' # default=empty
     url: 'https://sinki.app' # URL to fetch
     method: GET # default=GET
@@ -49,7 +49,7 @@ monitors:
     
         
    - id: SinkiAsia # unique identifier
-    name: SinkiAsia 
+    name: Sinki.Asia 
     description: 'SinkiAsia' # default=empty
     url: 'https://sinki.asia' # URL to fetch
     method: GET # default=GET
@@ -58,7 +58,7 @@ monitors:
     
     
     - id: Gmszone # unique identifier
-    name: Gmszone
+    name: Gmszone.com
     description: 'Gmszone' # default=empty
     url: 'https://gmszone.com/' # URL to fetch
     method: GET # default=GET
@@ -68,7 +68,7 @@ monitors:
 
 
     - id: ProBear # unique identifier
-    name: ProBear
+    name: ProBear.net
     description: 'ProBear' # default=empty
     url: 'https://ProBear.net' # URL to fetch
     method: GET # default=GET
@@ -77,7 +77,7 @@ monitors:
     
 
     - id: X4n # unique identifier
-    name: X4n
+    name: X4n.net
     description: 'X4n' # default=empty
     url: 'https://x4n.net' # URL to fetch
     method: GET # default=GET
@@ -87,7 +87,7 @@ monitors:
         
 
     - id: TheDriftHome # unique identifier
-    name: TheDriftHome
+    name: TheDriftHome.com
     description: 'TheDriftHome' # default=empty
     url: 'https://TheDriftHome.com' # URL to fetch
     method: GET # default=GET
