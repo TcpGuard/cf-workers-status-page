@@ -2,7 +2,7 @@ settings:
   title: 'TCPGuard Network Status'
   url: 'https://status.tcpguard.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 90 # number of days you want to display in histogram
+  daysInHistogram: 5 # number of days you want to display in histogram
   collectResponseTimes: true # experimental feature, enable only for <5 monitors or on paid plans
 
   allmonitorsOperational: 'All Systems Operational'
@@ -17,9 +17,82 @@ settings:
 monitors:
   - id: TCPGuard # unique identifier
     name: TCPGuard.com
-    description: 'TCPGuard Main.' # default=empty
+    description: 'TCPGuard Main' # default=empty
     url: 'https://TCPGuard.com/' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
+
+  - id: CheatLoop # unique identifier
+    name: cheatloop.com
+    description: 'CheatLoop' # default=empty
+    url: 'https://cheatloop.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: SinkiShop # unique identifier
+    name: SinkiShop
+    description: 'SinkiShop' # default=empty
+    url: 'https://sinki.shop' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+   - id: SinkiApp # unique identifier
+    name: SinkiApp
+    description: 'SinkiApp' # default=empty
+    url: 'https://sinki.app' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+        
+   - id: SinkiAsia # unique identifier
+    name: SinkiAsia 
+    description: 'SinkiAsia' # default=empty
+    url: 'https://sinki.asia' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+    
+    - id: Gmszone # unique identifier
+    name: Gmszone
+    description: 'Gmszone' # default=empty
+    url: 'https://gmszone.com/' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+
+
+    - id: ProBear # unique identifier
+    name: ProBear
+    description: 'ProBear' # default=empty
+    url: 'https://ProBear.net' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+
+    - id: X4n # unique identifier
+    name: X4n
+    description: 'X4n' # default=empty
+    url: 'https://x4n.net' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+        
+
+    - id: TheDriftHome # unique identifier
+    name: TheDriftHome
+    description: 'TheDriftHome' # default=empty
+    url: 'https://TheDriftHome.com' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+    
+    
 
