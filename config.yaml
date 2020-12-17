@@ -2,7 +2,7 @@ settings:
   title: 'TCPGuard Network Status'
   url: 'https://status.tcpguard.com' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
-  daysInHistogram: 5 # number of days you want to display in histogram
+  daysInHistogram: 90 # number of days you want to display in histogram
   collectResponseTimes: true # experimental feature, enable only for <5 monitors or on paid plans
 
   allmonitorsOperational: 'All Systems Operational'
@@ -45,6 +45,14 @@ monitors:
     name: Sinki.App
     description: 'SinkiApp' # default=empty
     url: 'https://Sinki.App' # URL to fetch
+    method: GET # default=GET
+    expectStatus: 200 # operational status, default=200
+    followRedirect: false # should fetch follow redirects, default=false
+
+  - id: GMSZONE # unique identifier
+    name: GmsZone.com
+    description: 'GMSZONE' # default=empty
+    url: 'https://GmsZone.com' # URL to fetch
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
